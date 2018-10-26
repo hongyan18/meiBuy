@@ -103,7 +103,7 @@ a{
    
     width: 520px;
     height: 210px;
-    background: yellow;
+    background: url(../image/banner.png);
 }
 .message{
     width: 230px;
@@ -173,4 +173,75 @@ a{
    background: url(../image/xuebitu.png) -260px 0;
    height: 23px;
    width: 81px;
+   margin-left: 81px;
+   margin-top: 7px;
+}
+.meterial{
+    border-top: 2px solid #C3D7E4;
+    line-height: 34px;
+    height: 34px;
+    margin:0 auto;
+    margin-top: 14px;
+    width: 950px;
+    background-color: #ECF1F7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.product{
+    width: 970px;
+    height: 345px;
+    background: red;
+    margin: 0 auto;/*居中*/
+    margin-top: 12px;
+}
+.product_l{
+    width: 738px;
+    height: 345px;
+    background: pink;
+    border:1px solid #D8D8D8;
+}
+.product_l .product_l_top{
+    width:712px;
+    height: 155px;
+    padding: 17px 0 0 26px;
+    background: yellow;
+
+}
+.product_l .p_l_t_product1{
+    height: 146px;
+    width: 350px;
+}
+.product .buy{
+    width: 99px;
+    height: 143px;
+    
+}
+.product .explain{
+    width: 250px;
+    height: 143px;
+    background: red;
+
+}
+.product .buy .img{
+    border: 1px solid #CACACA;
+    height: 100px;
+}
+.product .buy .img s{
+    display: inline-block;
+    width: 90px;
+    height: 80px;
+    background: url(../image/xuebitu.png) -360px 0;
+    margin: 10px 4px 0 3px;
+}
+.product .buy .btn{
+    width: 99px;
+    height: 26px;
+    color: white;
+    background: #0A84E3;
+    margin-top: 15px;
+}
+.product_r{
+    width: 230px;
+    height: 345px;
+    background:green;
 }
